@@ -9,7 +9,7 @@
 
 ## Introduction
 For this lab we are to implement a control and data path FSM as shown in the design diagram shown below. The data path should include a register for i, sum, a, average, a comparator, 2 adders, a right shifter, and finally one block ram module. The FSM control path should control the load and clears for each of the registers while the data path will simply connect everything everything and accept input from the FSM control path.
-![](/instruction/img/lab4_diagram_1.png)
+![](./instruction/img/lab4_diagram_1.png)
 
 ## Pre-Lab
 
@@ -18,9 +18,9 @@ For this lab we are to implement a control and data path FSM as shown in the des
 For the Data Path portion for of the design, I estimate 8 FFs for each I, sum, a, and avg. The comparator would be 8 LUTS, the two adders would be another 8 LUTS each, and the shift right would take 1 LUT. The FSM Control PAth would take only 3 FF since three states have a unique signal thus only requiring 3 FFs to implement. 3 muxes are need also needed to implement so three more LUTs. In total 51 FFs, 28 Luts, and block RAM are needed for this design.
 
 :question: **Question 2:** Draw the state diagram for FSM. The state machine block diagram is shown in Figure 4.2. 
-![FSM](/instruction/img/lab4_diagram_2.png)
+![FSM](./instruction/img/lab4_diagram_2.png)
 #### Moore FSM
-![Moore FSM](/instruction/img/FSM.png)
+![Moore FSM](./instruction/img/FSM.png)
 
 **Questions 3:** What is the FPGA area utilization for your design? How does this compare with your estimation in question 1? Explain your answer.
 
@@ -602,21 +602,21 @@ end Behavioral;
 ## Results (Data)
 From the results below we can see that each designs FSM control path was working as intended. However we seem to get the incorrect average for each of tasks, for example for task 1 & 2 the average was 6. When clearly most of the value were above 6 and the same thing happened to task 3. This is due to the fact that the sum register is only 8 bits wide. Meaning that the maximum value the register can hold is 255. This is a big flaw in the design but however since specifications were not given I left at is as the next Task was to implement overflow detection. When the overflow was detected the overflow flag was risen and remained that way until the FSM was reset. Task 3 is shown working as the i keeps counting to 50 and the last value in the sum gets divided by 50.
 
-![](/instruction/img/waveform1.png)
-![](/instruction/img/waveform2.png)
-![](/instruction/img/waveform3.png)
-![](/instruction/img/waveform4.png)
+![](./instruction/img/waveform1.png)
+![](./instruction/img/waveform2.png)
+![](./instruction/img/waveform3.png)
+![](./instruction/img/waveform4.png)
 
 
 ## FPGA Resources
 #### Resource Utilization Task 1
-![FSM Task 1](/instruction/img/resource_util.png)
+![FSM Task 1](./instruction/img/resource_util.png)
 
 #### Resource Utilization Task 2
-![FSM Task 1](/instruction/img/resource_util_task2.png)
+![FSM Task 1](./instruction/img/resource_util_task2.png)
 
 #### Resource Utilization Task 3
-![FSM Task 1](/instruction/img/resource_util_task3.png)
+![FSM Task 1](./instruction/img/resource_util_task3.png)
 
 ## Conclusion
 In conclusion, I implemented a Control Path FSM, a data path module that is controlled by FSM, modified it indicate overflow, and modified the design to take the average of 50 numbers. I learned about and how to implement control paths and data paths in this lab. This lab was good practice in how to design FSM and how to use them in controlling data paths.

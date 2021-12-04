@@ -10,7 +10,7 @@
 ## Introduction
 In this Lab we will be designing a Data Stream interleaver. Essentially this design will take two sinusoidal streams of data and pass through a portion of each and add them together at the output. 
 The design diagram is shown below
-![](./instruction/img/lab3_diagram_1.png) **Fig 1**
+![](./Assignment3/instruction/img/lab3_diagram_1.png) **Fig 1**
 
 **P_0** and **P_1** are the sinusoidal inputs and **a** is what portion of each input should be passed through. **P_f** is the output result of the data interleaver. 
 
@@ -130,7 +130,7 @@ The design was implemented exactly like how it is in **Fig 1** and the lines `at
 4. Designed an indirect implementation where the goal was to get the design to only use 1 DSP48. 
 5. 5. The clocking wizard was used to generate a faster clock in order to make the design use only 1 DSP48.
 6. The design was implemented using the following design diagram.
-![](/instruction/img/lab3_diagram_2.png)
+![](/Assignment3/instruction/img/lab3_diagram_2.png)
 7. The design is shown below.
 ```vhdl
 library IEEE;
@@ -461,35 +461,35 @@ end Behavioral;
 ## Results (Data)
 ### Schematics
 #### Part I
-![](/instruction/img/sch_1.png) **Direct Implementation Schematic** 
-![](/instruction/img/sch_2.png) **Zoomed in**
+![](/Assignment3/instruction/img/sch_1.png) **Direct Implementation Schematic** 
+![](/Assignment3/instruction/img/sch_2.png) **Zoomed in**
 #### Part II
-![](/instruction/img/sch_3.png) **Indirect Implementation Schematic**
-![](/instruction/img/sch_4.png) **Zoomed in**
+![](/Assignment3/instruction/img/sch_3.png) **Indirect Implementation Schematic**
+![](/Assignment3/instruction/img/sch_4.png) **Zoomed in**
 #### Part III
-![](/instruction/img/sch_5.png) **Indirect Implementation Schematic w SRL** 
-![](/instruction/img/sch_6.png) **Zoomed in**
+![](/Assignment3/instruction/img/sch_5.png) **Indirect Implementation Schematic w SRL** 
+![](/Assignment3/instruction/img/sch_6.png) **Zoomed in**
 
 ## FPGA Resources
 #### Part I
-![](/instruction/img/util_1_2.png)
-![](/instruction/img/util1.png) 
+![](/Assignment3/instruction/img/util_1_2.png)
+![](/Assignment3/instruction/img/util1.png) 
 
 **Report Utilization**
 #### Part II
-![](/instruction/img/util_2_2.png)
-![](/instruction/img/util2.png) 
+![](/Assignment3/instruction/img/util_2_2.png)
+![](/Assignment3/instruction/img/util2.png) 
 
 **Report Utilization**
 #### Part III
-![](/instruction/img/util_3_2.png)
-![](/instruction/img/util3.png) 
+![](/Assignment3/instruction/img/util_3_2.png)
+![](/Assignment3/instruction/img/util3.png) 
 
 **Report Utilization**
 
 ### Waveforms 
-![](/instruction/img/waveform1.png)
-![](/instruction/img/waveform2.png)
+![](/Assignment3/instruction/img/waveform1.png)
+![](/Assignment3/instruction/img/waveform2.png)
 ## Conclusion
 In conclusion, I learned about data interleavers, DSP48, and how to force the use of them in VHDL. I also got to practice more with reading values from text files for simulation. I was able to preform all of the required task of this lab and my Schematics and Waveforms are there to prove it. 
 

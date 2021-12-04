@@ -20,7 +20,7 @@ y = sin((2*pi)*(n/N));
 plot(n, y)
 yline(0)
 ```
-![Graph 8MHz](/instruction/img/graph8.png)
+![Graph 8MHz](/Assignment2/instruction/img/graph8.png)
 
 ```m
 % Multiply each value by 2^17 and round so its ready for inputting into a text file.
@@ -42,7 +42,7 @@ y = sin((2*pi)*(n/N));
 plot(n, y)
 yline(0)
 ```
-![Graph 16MHz](/instruction/img/graph16.png)
+![Graph 16MHz](/Assignment2/instruction/img/graph16.png)
 
 ```m
 % Multiply each value by 2^17 and round so its ready for inputting into a text file.
@@ -64,7 +64,7 @@ y = sin((2*pi)*(n/N));
 plot(n, y)
 yline(0)
 ```
-![Graph 24MHz](/instruction/img/graph24.png)
+![Graph 24MHz](/Assignment2/instruction/img/graph24.png)
 
 ```m
 % Multiply each value by 2^17 and round so its ready for inputting into a text file.
@@ -399,63 +399,63 @@ end Behavioral;
 
 ## Results (Data)
 Block Diagram
-![](/instruction/img/bs1.png)
-![](/instruction/img/bs2.png)
+![](/Assignment2/instruction/img/bs1.png)
+![](/Assignment2/instruction/img/bs2.png)
 
 
 8MHz Waveform Output
-![](/instruction/img/freq8MHz.png)
+![](/Assignment2/instruction/img/freq8MHz.png)
 
 16MHz Waveform Output
-![](/instruction/img/freq16.png)
+![](/Assignment2/instruction/img/freq16.png)
 
 24MHz Waveform Output
-![](/instruction/img/freq24.png)
+![](/Assignment2/instruction/img/freq24.png)
 
 
 ## FPGA Resources
 #### Filter Length
 5 Stages
 
-![](/instruction/img/resourceS5I18.png)
+![](/Assignment2/instruction/img/resourceS5I18.png)
 
 10 Stages
 
-![](/instruction/img/resourceS10I18.png)
+![](/Assignment2/instruction/img/resourceS10I18.png)
 
 15 Stages
 
-![](/instruction/img/resourceS15I18.png)
+![](/Assignment2/instruction/img/resourceS15I18.png)
 
 20 Stages
 
-![](/instruction/img/resourceS20I18.png)
+![](/Assignment2/instruction/img/resourceS20I18.png)
 
 #### Input Width
 
 Input Width: 18
 
-![](/instruction/img/resourceS5I18.png)
+![](/Assignment2/instruction/img/resourceS5I18.png)
 
 Input Width: 20
 
-![](/instruction/img/resourceS5I20.png)
+![](/Assignment2/instruction/img/resourceS5I20.png)
 
 Input Width: 22
 
-![](/instruction/img/resourceS5I22.png)
+![](/Assignment2/instruction/img/resourceS5I22.png)
 
 Input Width: 24
 
-![](/instruction/img/resourceS5I24.png)
+![](/Assignment2/instruction/img/resourceS5I24.png)
 
 Input Width: 26
 
-![](/instruction/img/resourceS5I26.png)
+![](/Assignment2/instruction/img/resourceS5I26.png)
 
 Input Width: 28
 
-![](/instruction/img/resourceS5I2.png)
+![](/Assignment2/instruction/img/resourceS5I2.png)
 
 | | FFS | LUTs | SLICEs | DSP blocks |
 |--|--|--|--|--|

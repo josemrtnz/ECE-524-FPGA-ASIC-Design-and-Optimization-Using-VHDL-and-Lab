@@ -19,7 +19,7 @@ port (
 
 ## Pre-Lab
 ASCII Pattern Detector Moore FSM Diagram
-![FSM Diagram](/instruction/img/FSM_Diagram.png)
+![FSM Diagram](./instruction/img/FSM_Diagram.png)
 
 |State|Sequence|
 |--|---|
@@ -187,17 +187,17 @@ end Behavioral;
 ```
 
 ## Results (Data)
-![FSM Waveform](/instruction/img/FSM_Waveform.png)
+![FSM Waveform](./instruction/img/FSM_Waveform.png)
 **FSM Waveform**
 
 ## FPGA Resources
 
-![FSM RTL Design Schematic](/instruction/img/elaborated_design_schematic.png)
+![FSM RTL Design Schematic](./instruction/img/elaborated_design_schematic.png)
 **FSM RTL Schematic**
 
 
-![FSM Resource Utilization](/instruction/img/fsm_util.png)
-![FSM Resource Utilization Summary](/instruction/img/fsm_util_sum.png)
+![FSM Resource Utilization](./instruction/img/fsm_util.png)
+![FSM Resource Utilization Summary](./instruction/img/fsm_util_sum.png)
 
 **FSM Resource Utilization**
 

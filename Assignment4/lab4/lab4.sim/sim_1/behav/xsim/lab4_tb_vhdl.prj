@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" \
+"../../../../lab4.srcs/sources_1/new/data_path.vhd" \
+"../../../../lab4.srcs/sources_1/new/data_path_2.vhd" \
+"../../../../lab4.srcs/sources_1/new/data_path_ov.vhd" \
+"../../../../lab4.srcs/sources_1/new/fsm_lab4.vhd" \
+"../../../../lab4.srcs/sources_1/new/top_level.vhd" \
+"../../../../lab4.srcs/sources_1/new/top_level_50.vhd" \
+"../../../../lab4.srcs/sources_1/new/top_level_ov.vhd" \
+"../../../../lab4.srcs/sim_1/new/lab4_tb.vhd" \
+
+# Do not sort compile order
+nosort

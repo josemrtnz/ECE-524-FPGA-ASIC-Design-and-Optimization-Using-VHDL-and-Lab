@@ -1,0 +1,237 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 18 20:25:43 2021
+# Process ID: 11857
+# Current directory: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.runs/synth_1
+# Command line: vivado -log counters.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counters.tcl
+# Log file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.runs/synth_1/counters.vds
+# Journal file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source counters.tcl -notrace
+Command: synth_design -top counters -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11885
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2444.902 ; gain = 18.805 ; free physical = 154 ; free virtual = 11023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'counters' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:24]
+INFO: [Synth 8-3491] module 'clock_divider' declared at '/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/clock_divider.vhd:17' bound to instance 'cd1' of component 'clock_divider' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/clock_divider.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (1#1) [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/clock_divider.vhd:23]
+INFO: [Synth 8-3491] module 'ring_counter' declared at '/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/ring_counter.vhd:17' bound to instance 'rc1' of component 'ring_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'ring_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/ring_counter.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'ring_counter' (2#1) [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/ring_counter.vhd:24]
+INFO: [Synth 8-3491] module 'binary_counter' declared at '/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/binary_counter.vhd:18' bound to instance 'bc1' of component 'binary_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'binary_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/binary_counter.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'binary_counter' (3#1) [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/binary_counter.vhd:25]
+INFO: [Synth 8-3491] module 'fibonacci_counter' declared at '/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/fibonacci_counter.vhd:17' bound to instance 'fc1' of component 'fibonacci_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'fibonacci_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/fibonacci_counter.vhd:24]
+WARNING: [Synth 8-614] signal 'fn' is read in the process but is not in the sensitivity list [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/fibonacci_counter.vhd:32]
+WARNING: [Synth 8-614] signal 'fn1' is read in the process but is not in the sensitivity list [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/fibonacci_counter.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'fibonacci_counter' (4#1) [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/fibonacci_counter.vhd:24]
+INFO: [Synth 8-3491] module 'johnson_counter' declared at '/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/johnson_counter.vhd:17' bound to instance 'jc1' of component 'johnson_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'johnson_counter' [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/johnson_counter.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'johnson_counter' (5#1) [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/johnson_counter.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'counters' (6#1) [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/sources_1/new/counters.vhd:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2485.840 ; gain = 59.742 ; free physical = 267 ; free virtual = 11025
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2500.684 ; gain = 74.586 ; free physical = 981 ; free virtual = 11739
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2500.684 ; gain = 74.586 ; free physical = 981 ; free virtual = 11739
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2500.684 ; gain = 0.000 ; free physical = 968 ; free virtual = 11725
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc]
+Finished Parsing XDC File [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/counters_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/counters_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2663.434 ; gain = 0.000 ; free physical = 920 ; free virtual = 11677
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2663.434 ; gain = 0.000 ; free physical = 920 ; free virtual = 11677
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 986 ; free virtual = 11744
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 986 ; free virtual = 11744
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 985 ; free virtual = 11743
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 978 ; free virtual = 11737
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 964 ; free virtual = 11725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 481 ; free virtual = 11593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 476 ; free virtual = 11591
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 471 ; free virtual = 11591
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 204 ; free virtual = 11594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 204 ; free virtual = 11594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 202 ; free virtual = 11594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 202 ; free virtual = 11593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 200 ; free virtual = 11592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 200 ; free virtual = 11592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     4|
+|4     |LUT2   |     4|
+|5     |LUT3   |     4|
+|6     |LUT4   |     3|
+|7     |LUT5   |    11|
+|8     |LUT6   |    11|
+|9     |FDRE   |    50|
+|10    |FDSE   |     2|
+|11    |IBUF   |     7|
+|12    |OBUF   |     4|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 199 ; free virtual = 11592
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2663.434 ; gain = 74.586 ; free physical = 234 ; free virtual = 11649
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2663.434 ; gain = 237.336 ; free physical = 234 ; free virtual = 11649
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2663.434 ; gain = 0.000 ; free physical = 317 ; free virtual = 11734
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2663.434 ; gain = 0.000 ; free physical = 261 ; free virtual = 11678
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 2663.434 ; gain = 237.438 ; free physical = 406 ; free virtual = 11823
+INFO: [Common 17-1381] The checkpoint '/home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.runs/synth_1/counters.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file counters_utilization_synth.rpt -pb counters_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 18 20:26:21 2021...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct 11 20:55:55 2021
+# Process ID: 49390
+# Current directory: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.runs/impl_1
+# Command line: vivado -log dsi_with_srl.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dsi_with_srl.tcl -notrace
+# Log file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.runs/impl_1/dsi_with_srl.vdi
+# Journal file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source dsi_with_srl.tcl -notrace

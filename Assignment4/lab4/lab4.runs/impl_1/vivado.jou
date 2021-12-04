@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct 24 07:40:43 2021
+# Process ID: 135707
+# Current directory: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment4-group-7/lab4/lab4.runs/impl_1
+# Command line: vivado -log top_level_50.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_level_50.tcl -notrace
+# Log file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment4-group-7/lab4/lab4.runs/impl_1/top_level_50.vdi
+# Journal file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment4-group-7/lab4/lab4.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_level_50.tcl -notrace

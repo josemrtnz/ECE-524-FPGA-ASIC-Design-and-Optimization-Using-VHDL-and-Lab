@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1634010911">
+  <File Type="VDS-TIMING-PB" Name="dsi_with_srl_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="dsi_with_srl_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="dsi_with_srl.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="dsi_with_srl_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="dsi_with_srl_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="dsi_with_srl_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="dsi_with_srl.vds"/>
+  <File Type="REPORTS-TCL" Name="dsi_with_srl_reports.tcl"/>
+  <File Type="PA-TCL" Name="dsi_with_srl.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/dsi_with_srl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/indirect_stream_interleaver.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/direct_stream_interleaver.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="dsi_with_srl"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../fa21-e524-lab-assignment1-part2-group-7/assignment_1_part_2/assignment_1_part_2.srcs/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc"/>
+        <Attr Name="ImportTime" Val="1631318448"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

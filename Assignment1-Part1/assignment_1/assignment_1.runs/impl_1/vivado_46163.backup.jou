@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep  7 11:16:33 2021
+# Process ID: 46163
+# Current directory: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part1-group-7/assignment_1/assignment_1.runs/impl_1
+# Command line: vivado -log full_adder_unit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source full_adder_unit.tcl -notrace
+# Log file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part1-group-7/assignment_1/assignment_1.runs/impl_1/full_adder_unit.vdi
+# Journal file: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment1-part1-group-7/assignment_1/assignment_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source full_adder_unit.tcl -notrace

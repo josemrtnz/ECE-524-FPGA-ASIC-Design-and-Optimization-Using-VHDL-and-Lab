@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1635033879">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-SYSDEF" Name="FSM_A1.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="FSM_A1.ltx"/>
+  <File Type="BG-BGN" Name="FSM_A1.bgn"/>
+  <File Type="NPI_FILE" Name="FSM_A1.npi"/>
+  <File Type="BG-DRC" Name="FSM_A1.drc"/>
+  <File Type="RNPI_FILE" Name="FSM_A1.rnpi"/>
+  <File Type="CFI_FILE" Name="FSM_A1.cfi"/>
+  <File Type="RCFI_FILE" Name="FSM_A1.rcfi"/>
+  <File Type="PDI-FILE" Name="FSM_A1.pdi"/>
+  <File Type="BITSTR-MMI" Name="FSM_A1.mmi"/>
+  <File Type="BITSTR-BMM" Name="FSM_A1_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="FSM_A1.nky"/>
+  <File Type="BITSTR-RBT" Name="FSM_A1.rbt"/>
+  <File Type="BITSTR-MSK" Name="FSM_A1.msk"/>
+  <File Type="RBD_FILE" Name="FSM_A1.rbd"/>
+  <File Type="BG-BIN" Name="FSM_A1.bin"/>
+  <File Type="BG-BIT" Name="FSM_A1.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="FSM_A1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="FSM_A1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="FSM_A1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="FSM_A1.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="FSM_A1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="FSM_A1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="FSM_A1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FSM_A1_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FSM_A1_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="FSM_A1_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="FSM_A1_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="FSM_A1_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="FSM_A1_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="FSM_A1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="FSM_A1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="FSM_A1_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="FSM_A1_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="FSM_A1_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="FSM_A1_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="FSM_A1_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FSM_A1_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FSM_A1_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FSM_A1_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="FSM_A1_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="FSM_A1_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="FSM_A1_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FSM_A1_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="FSM_A1_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FSM_A1_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="FSM_A1_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="FSM_A1_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="FSM_A1_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="FSM_A1_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FSM_A1_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="FSM_A1_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FSM_A1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="FSM_A1_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="FSM_A1_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="FSM_A1_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="FSM_A1_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="FSM_A1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="FSM_A1_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="FSM_A1_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="FSM_A1_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="FSM_A1_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="FSM_A1_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="FSM_A1_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FSM_A1.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="FSM_A1_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="FSM_A1_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="FSM_A1_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="FSM_A1_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="FSM_A1_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="FSM_A1_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="FSM_A1_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="FSM_A1.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FSM_A1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FSM_A1"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/constrs_1/imports/constrs/Zybo-Z7-Master-full-adder-map.xdc"/>
+        <Attr Name="ImportTime" Val="1633452676"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

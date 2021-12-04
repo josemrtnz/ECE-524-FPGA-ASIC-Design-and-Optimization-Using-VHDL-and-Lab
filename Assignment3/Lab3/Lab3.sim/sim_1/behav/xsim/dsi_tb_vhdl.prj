@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab3.gen/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd" \
+"../../../../Lab3.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl" \
+"../../../../Lab3.srcs/sources_1/new/direct_stream_interleaver.vhd" \
+"../../../../Lab3.srcs/sources_1/new/dsi_with_srl.vhd" \
+"../../../../Lab3.srcs/sources_1/new/indirect_stream_interleaver.vhd" \
+"../../../../Lab3.srcs/sim_1/new/dsi_tb.vhd" \
+
+# Do not sort compile order
+nosort

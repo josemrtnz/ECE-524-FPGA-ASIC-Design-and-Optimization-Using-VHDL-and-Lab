@@ -1,0 +1,13 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Error: TEXTIO function READ: read a non-integer, a integer is expected
+Time: 0 ps  Iteration: 0  Process: /dsi_tb/line__78  File: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/dsi_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 0 ps  Iteration: 0  Process: /dsi_tb/line__78  File: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/dsi_tb.vhd
+Error: File /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/input_delay.txt is already at the end of file, nothing to read
+Time: 12387500 ps  Iteration: 0  Process: /dsi_tb/line__78  File: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/dsi_tb.vhd
+ERROR: File /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/input_delay.txt could not be opened.
+Time: 12387500 ps  Iteration: 0  Process: /dsi_tb/line__78
+  File: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/dsi_tb.vhd
+
+HDL Line: /home/josemrtnz/Documents/ECE524L/fa21-e524-lab-assignment3-group-7/Lab3/Lab3.srcs/sim_1/new/dsi_tb.vhd:93
